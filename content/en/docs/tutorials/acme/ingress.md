@@ -249,7 +249,7 @@ you own or  control to complete this example.
 A sample ingress you can start with is:
 {{% include file="../example/ingress.yaml" language="yaml" %}}
 
-You can download the sample manifest from GitHub , edit it, and submit the
+You can download the sample manifest from GitHub, edit it, and submit the
 manifest to Kubernetes with the command. Edit the file in your editor, and once
 it is saved:
 
