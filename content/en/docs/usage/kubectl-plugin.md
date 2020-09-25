@@ -87,9 +87,11 @@ $ kubectl cert-manager renew --namespace=app --all
 ```
 
 The renew command allows several options to be specified:
+
 * `--all` renew all Certificates in the given Namespace, or all namespaces when combined with `--all-namespaces`
 * `-A` or  `--all-namespaces` mark Certificates across namespaces for renewal
 * `-l` `--selector` allows set a label query to filter on
+
 as well as `kubectl` global flags like `--context` and `--namespace`.
 
 ### Convert
